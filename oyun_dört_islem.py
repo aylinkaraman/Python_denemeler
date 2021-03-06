@@ -14,12 +14,12 @@ while anahtar == 1:
     if x == "0":
         print("Çıkılıyor...")
         anahtar = 0
-    elif x=="1":
+    elif x=="1": #seviye1
         sayi1=random.randint(1,10)
         sayi2=random.randint(1,10)
         islem1=["+","-"]
         a=random.choice(islem1)
-        if a==islem1[0]: #seviye1
+        if a==islem1[0]: 
             sonuc1=sayi1+sayi2
         else:
             sonuc1=sayi1-sayi2
@@ -36,12 +36,12 @@ while anahtar == 1:
                     anahtar = 0
             else:
                 print("Bilemedin. Tekrar dene!")
-    elif x=="2":
+    elif x=="2": #seviye2
         sayi3=random.randint(10,50)
         sayi4=random.randint(10,50)
         islem2=["+","-","*"]
         b=random.choice(islem2)
-        if b==islem2[0]: #seviye2
+        if b==islem2[0]: 
             sonuc2=sayi3+sayi4
         elif b==islem2[1]:
             sonuc2=sayi3-sayi4
@@ -60,12 +60,12 @@ while anahtar == 1:
                     anahtar = 0
             else:
                 print("Bilemedin. Tekrar dene!")
-    elif x=="3":
+    elif x=="3": #seviye3
         sayi5=random.randint(50,100)
         sayi6=random.randint(50,100)
         islem3=["+","-","*","//"]
         c=random.choice(islem3)
-        if c==islem3[0]: #seviye3
+        if c==islem3[0]: 
             sonuc3=sayi5+sayi6
         elif c==islem3[1]:
             sonuc3=sayi5-sayi6
